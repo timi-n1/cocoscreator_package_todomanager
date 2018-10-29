@@ -1,0 +1,23 @@
+{
+    "name": "todo-manager",
+    "version": "1.0.0",
+    "description": "Todoå管理",
+    "author": "Aguangtian",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/通用/Todo管理": {
+            "message": "todo-manager:run"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "Todo管理",
+        "width": 600,
+        "height": 800
+    }
+}
